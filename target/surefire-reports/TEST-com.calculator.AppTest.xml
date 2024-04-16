@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.calculator.AppTest" time="0.049" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Kuliah\Software Testing\Calculator\demo\target\test-classes;D:\Kuliah\Software Testing\Calculator\demo\target\classes;C:\Users\Zahri Hidayat\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Zahri Hidayat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ZAHRIH~1\AppData\Local\Temp\surefire130676895306999620\surefirebooter8557702133323933427.jar C:\Users\Zahri Hidayat\AppData\Local\Temp\surefire130676895306999620 2024-04-16T10-36-30_301-jvmRun1 surefire1895700463595309662tmp surefire_08931886352622729323tmp"/>
+    <property name="surefire.test.class.path" value="D:\Kuliah\Software Testing\Calculator\demo\target\test-classes;D:\Kuliah\Software Testing\Calculator\demo\target\classes;C:\Users\Zahri Hidayat\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Zahri Hidayat\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Zahri Hidayat"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-8\jre"/>
+    <property name="basedir" value="D:\Kuliah\Software Testing\Calculator\demo"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="jdk.vendor.version" value="Zulu 8.76.0.17-CA-win64"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\ZAHRIH~1\AppData\Local\Temp\surefire130676895306999620\surefirebooter8557702133323933427.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Zulu\zulu-8\jre\lib\resources.jar;C:\Program Files\Zulu\zulu-8\jre\lib\rt.jar;C:\Program Files\Zulu\zulu-8\jre\lib\sunrsasign.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jsse.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jce.jar;C:\Program Files\Zulu\zulu-8\jre\lib\charsets.jar;C:\Program Files\Zulu\zulu-8\jre\lib\jfr.jar;C:\Program Files\Zulu\zulu-8\jre\lib\cat.jar;C:\Program Files\Zulu\zulu-8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_402-b06"/>
+    <property name="user.name" value="Zahri Hidayat"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Zahri Hidayat\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ZAHRIH~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_402"/>
+    <property name="user.dir" value="D:\Kuliah\Software Testing\Calculator\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-8\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\PowerShell\7;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\Zahri Hidayat\AppData\Local\Programs\Python\Python310;C:\Program Files\PuTTY\;D:\Kuliah\Software\Neo4j\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.1\;C:\Program Files\MATLAB\R2022b\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\swipl\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\php-8.1.12-nts-Win32-vs16-x64;C:\zlib\dll_x64;C:\Program Files (x86)\cloudflared;C:\Program Files (x86)\NoteBook FanControl\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files (x86)\ZeroTier\One\;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\Users\Zahri Hidayat\AppData\Roaming\npm;C:\Program Files\Docker\Docker\resources\bin;C:\MinGW\bin\;C:\Program Files\PowerShell\7\;C:\Users\Zahri Hidayat\AppData\Local\Programs\Python\Python37;C:\Program Files\HP\HP One Agent;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Bitvise SSH Client;D:\program\apache-maven-3.9.6\bin;F:\EA-Compressed\aircrack-ng-1.7-win\aircrack-ng-1.7-win\bin;C:\Users\Zahri Hidayat\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Zahri Hidayat\AppData\Local\spicetify;C:\Users\Zahri Hidayat\AppData\Local\Microsoft\WindowsApps;C:\Users\Zahri Hidayat\AppData\Local\GitHubDesktop\bin;;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="25.402-b06"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Zulu\zulu-8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testInvalidOperator" classname="com.calculator.AppTest" time="0.006"/>
+  <testcase name="testMultiplication" classname="com.calculator.AppTest" time="0"/>
+  <testcase name="testAddition" classname="com.calculator.AppTest" time="0"/>
+  <testcase name="testDivisionByZero" classname="com.calculator.AppTest" time="0.006">
+    <failure message="Expected IllegalArgumentException was not thrown" type="java.lang.AssertionError">java.lang.AssertionError: Expected IllegalArgumentException was not thrown
+	at com.calculator.AppTest.testDivisionByZero(AppTest.java:46)
+</failure>
+    <system-out><![CDATA[Error: Tidak dapat melakukan pembagian dengan nol.
+]]></system-out>
+  </testcase>
+  <testcase name="testDivision" classname="com.calculator.AppTest" time="0"/>
+  <testcase name="testInvalidOperand" classname="com.calculator.AppTest" time="0"/>
+  <testcase name="testSubtraction" classname="com.calculator.AppTest" time="0"/>
+</testsuite>

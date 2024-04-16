@@ -1,0 +1,7 @@
+com\calculator\App.class
+com\calculator\Operation\AddOperation.class
+com\calculator\Operation\SubtractOperation.class
+com\calculator\Operation\MultiplyOperation.class
+com\calculator\Calculator.class
+com\calculator\Operation\Operation.class
+com\calculator\Operation\DivideOperation.class
