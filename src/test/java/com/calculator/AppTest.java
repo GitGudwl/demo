@@ -50,18 +50,25 @@ public class AppTest {
         }
     }
 
-
     @Test
     public void testInvalidOperand() {
-        // Operand out of range should return 0
-        int result = calculator.compute(40000, 5, "+");
-        assertEquals(0, result);
+        try {
+            calculator.compute(50000, 2, "+");
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            // Check if the exception message matches the expected message
+            assertEquals("Operand harus berada di rentang -32768 sampai 32767.", e.getMessage());
+        }
     }
 
     @Test
     public void testInvalidOperator() {
-        // Invalid operator should return 0
-        int result = calculator.compute(10, 5, "#");
-        assertEquals(0, result);
+        try {
+            calculator.compute(32, 2, "s");
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            // Check if the exception message matches the expected message
+            assertEquals("Operator tidak valid.", e.getMessage());
+        }
     }
 }
