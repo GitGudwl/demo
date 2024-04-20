@@ -71,4 +71,15 @@ public class AppTest {
             assertEquals("Operator tidak valid.", e.getMessage());
         }
     }
+
+    @Test
+    public void testInvalidOperandWithNegativeNumbers() {
+        try {
+            calculator.compute(-50000, 2, "+");
+            fail("Expected IllegalArgumentException was not thrown");
+        } catch (IllegalArgumentException e) {
+            // Check if the exception message matches the expected message
+            assertEquals("Operand harus berada di rentang -32768 sampai 32767.", e.getMessage());
+        }
+    }
 }
