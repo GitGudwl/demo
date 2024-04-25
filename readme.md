@@ -19,8 +19,9 @@ This is a simple Calculator CLI (Command Line Interface) application created wit
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/GitGudwl/demo
    ```
+   or download the zip file from the repository.
 
 2. Run the application:
 
@@ -34,8 +35,7 @@ This is a simple Calculator CLI (Command Line Interface) application created wit
 
 These are the main files of the project with their respective functions:
 
-'''bash
-
+```bash
 ├───.vscode
 ├───src
 │ ├───main
@@ -67,7 +67,7 @@ These are the main files of the project with their respective functions:
 └───test-classes
 └───com
 └───calculator
-'''
+```
 
 ## How To Run Execution Testing
 
