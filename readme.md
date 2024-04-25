@@ -21,6 +21,7 @@ This is a simple Calculator CLI (Command Line Interface) application created wit
    ```bash
    git clone https://github.com/GitGudwl/demo
    ```
+
    or download the zip file from the repository.
 
 2. Run the application:
@@ -99,45 +100,45 @@ These are the main files of the project with their respective functions:
 The testing consists of the following test cases:
 
 - Test Case 1: Test the addition operation
-  test data :
-  operand 1 :10
-  operand 2 :5
-  operator :'+'
+  - test data :
+  - operand 1 :10
+  - operand 2 :5
+  - operator :'+'
 - Test Case 2: Test the subtraction operation
-  test data :
-  operand 1 :10
-  operand 2 :5
-  operator :'-'
+  - test data :
+  - operand 1 :10
+  - operand 2 :5
+  - operator :'-'
 - Test Case 3: Test the multiplication operation
-  test data :
-  operand 1 :10
-  operand 2 :5
-  operator :'\*'
+  - test data :
+  - operand 1 :10
+  - operand 2 :5
+  - operator :'\*'
 - Test Case 4: Test the division operation
-  test data :
-  operand 1 :10
-  operand 2 :5
-  operator :'/'
+  - test data :
+  - operand 1 :10
+  - operand 2 :5
+  - operator :'/'
 - Test Case 5: Test the division by zero operation
-  test data :
-  operand 1 :10
-  operand 2 :0
-  operator :'/'
+  - test data :
+  - operand 1 :10
+  - operand 2 :0
+  - operator :'/'
 - Test Case 6: Test the operation with invalid positive operand input
-  test data :
-  operand 1 :50000
-  operand 2 :2
-  operator :'+'
-- Test Case 7: Test the operation with invalid negative operand input  
-  test data :
-  operand 1 :-50000
-  operand 2 :2
-  operator :'+'
+  - test data :
+  - operand 1 :50000
+  - operand 2 :2
+  - operator :'+'
+- Test Case 7: Test the operation with invalid negative operand input
+  - test data :
+  - operand 1 :-50000
+  - operand 2 :2
+  - operator :'+'
 - Test Case 8: Test the operation with invalid operator input
-  test data :
-  operand 1 :10
-  operand 2 :5
-  operator :'s'
+  - test data :
+  - operand 1 :10
+  - operand 2 :5
+  - operator :'s'
 
 ## Author
 
