@@ -20,14 +20,6 @@
   </properties>
 
   <dependencies>
-
-    <dependency>
-      <groupId>io.qameta.allure</groupId>
-      <artifactId>allure2-model</artifactId>
-      <version>1.0.0</version>
-      <type>pom</type>
-    </dependency>
-
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
